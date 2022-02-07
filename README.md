@@ -9,5 +9,4 @@ You will need to set secrets for `DORAMETRIX_ENDPOINT` and `DORAMETRIX_API_KEY` 
 ## Remember...
 
 - Always ensure you have secure settings regarding what actions you allow.
-
 - Note that Dorametrix will _not_ work without access to the Git history.
