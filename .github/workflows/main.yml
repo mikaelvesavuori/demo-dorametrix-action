@@ -5,8 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Dorametrix
     steps:
-      - uses: actions/checkout@v2
-      - id: dorametrix
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: dorametrix
         uses: mikaelvesavuori/dorametrix-action@v0.0.2
         with:
           endpoint: ${{ secrets.DORAMETRIX_ENDPOINT }}
