@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: dorametrix
-        uses: mikaelvesavuori/dorametrix-action@v0.0.1
+        uses: mikaelvesavuori/dorametrix-action@v0.0.2
         with:
           endpoint: ${{ secrets.DORAMETRIX_ENDPOINT }}
           api-key: ${{ secrets.DORAMETRIX_API_KEY }}
