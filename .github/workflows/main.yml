@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  dorametrix:
+    runs-on: ubuntu-latest
+    name: Dorametrix
+    steps:
+      - uses: actions/checkout@v2
+      - id: dorametrix
+        uses: mikaelvesavuori/dorametrix-action@v0.0.1
+        with:
+          endpoint: ${{ secrets.DORAMETRIX_ENDPOINT }}
+          api-key: ${{ secrets.DORAMETRIX_API_KEY }}
