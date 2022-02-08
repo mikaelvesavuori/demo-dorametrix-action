@@ -1,5 +1,7 @@
 # Demo of Dorametrix GitHub Action
 
+This repository demonstrates using the [Dorametrix GitHub Action](https://github.com/mikaelvesavuori/demo-dorametrix-action).
+
 **View `.github/workflows/main.yml` for details.**
 
 ## Configuration
